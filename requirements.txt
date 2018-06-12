@@ -1,4 +1,4 @@
 django==1.10
 djangorestframework==3.4
-markdown
-django-oauth-toolkit
+markdown==2.6.11
+django-oauth-toolkit==0.11.0
