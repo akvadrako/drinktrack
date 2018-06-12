@@ -19,6 +19,7 @@ RUN python3 -m pip \
 
 COPY beercounter/ /home/beercounter/
 COPY beeromat/ /home/beeromat/
+COPY static/ /home/static/
 COPY manage.py /home/
 
 CMD ["./manage.py", "runserver", "0.0.0.0:8000"]
